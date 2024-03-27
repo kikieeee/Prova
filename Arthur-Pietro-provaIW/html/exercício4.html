@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <!--Descreve o Conteúdo de uma página para os mecanismos de busca-->
+        <title>Exercício 4</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <meta name="keywords" content="HTML, CSS,Javascript,Bootstrap,">
+        <meta name="author" content="Arthur e Pietro do EM1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="../imagens/icone/icone.jpeg">
+        <!--Inclui o Arquivo de CSS externo-->
+        <link rel="stylesheet" href="../css/navbar.css">
+        <!--Inclui o script Externo-->
+
+    </head>
+    <body>
+        
+        <nav class="navbar">  
+            <ul class="nav-links">
+                <li><a href="index.html"><p>ATIVIDADE 1</p></a></li>
+                <li><a href="exercício2.html"><p>ATIVIDADE 2</p></a></li>
+                <li><a href="exercício3.html"><p>ATIVIDADE 3</p></a></li>
+                <li><a href="exercício4.html"><p>ATIVIDADE 4</p></a></li>
+                <li><a href="exercício5.html"><p>ATIVIDADE 5</p></a></li>
+                <li><a href="exercício6.html"><p>ATIVIDADE 6</p></a></li>
+                <li><a href="exercício7.html"><p>ATIVIDADE 7</p></a></li>
+                <li><a href="exercício8.html"><p>ATIVIDADE 8</p></a></li>
+            </ul>
+        </nav> 
+        <br>
+        <br>
+        <div onmouseover="msobre(this)" onmouseout="mfora(this)" style="background-color:#04abd4;width:160px;height:40px;padding:40px;margin-left: 5%;">
+            Passe o Mouse
+        </div>
+        <br>
+        <br>
+        <div>
+            <input type="text" onfocus="nofoco(this)" onblur="nãofoco(this)" >No Foco
+            <br>
+            <br>
+            <br>
+        </div>
+        <br>
+        <br>
+        <select id="mySelect" onchange="muda()">
+            <option value="MB">Melhor Nota</option>
+            <option value="B">Nota Boa</option>
+            <option value="R">Notinha "meh"</option>
+            <option value="I">Irrecuperável</option>
+        </select>
+        <p id="ent"></p>
+        <br>
+        <br>
+        <div>
+            <div style="background-color:red;width:170px;height:80px;margin:4%;padding-top:2%;color:#fff;font-size:18px;text-align:center;" onclick="cliq(this)">Clica em mim</div>
+        </div>
+        <br>
+        <br>
+        <div>
+            Escreva seu nome, se tiver coragem: <input type="text" id="ng" oninput="caps()">
+        </div>
+
+        <script src="../javascript/exe4.js"></script>
+    </body>
+</html>
